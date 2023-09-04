@@ -1,0 +1,71 @@
+.login-container {
+    max-width: 300px;
+    height: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    elevation: higher;
+}
+
+.login-container h2 {
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button {
+    display: block;
+    width: 270px;
+    padding: 4px;
+    height: 40px;
+    background-color: #000080;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+.login-container header{
+    background-color: #0056b3;
+}
+.atlassian{
+    color:#2916F5;
+    font-weight: bold;
+    font-size: xx-large;
+
+
+}
+.atlassian-view{
+    flex-direction: column;
+    align-self: center;
+}
+.image{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.or{
+    margin-top: 25px;
+    color: grey;
+    font-size: 15px;
+
+}
+.google{
+    width: 250px;
+    height: 40px;
+    background-color: #ffffff;
+    
+    border-radius: 1px;
+}
