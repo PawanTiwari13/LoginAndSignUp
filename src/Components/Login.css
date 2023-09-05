@@ -1,6 +1,6 @@
 .login-container {
-  max-width: 300px;
-  height: 800px;
+  max-width: 380px;
+  height: auto;
   margin: 100px auto;
   padding: 20px;
   background-color: white;
@@ -12,16 +12,19 @@
 }
 
 .login-container input {
-  width: 250px;
+  width: 300px;
   padding: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 30px;
+  background-color: #ecf0f1;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
 
 .button {
   display: block;
-  width: 270px;
+  width: 320px;
   padding: 4px;
   height: 40px;
   background-color: #000080;
@@ -30,7 +33,7 @@
   border-radius: 3px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .login-container button:hover {
@@ -47,6 +50,7 @@
 .atlassian-view {
   flex-direction: column;
   align-self: center;
+  margin-left: 90px;
 }
 .image {
   width: 25px;
@@ -57,12 +61,80 @@
   margin-top: 25px;
   color: grey;
   font-size: 15px;
+  align-content: center;
+  margin-left: 100px;
 }
 .google {
-  width: 250px;
-  height: 40px;
+  width: 300px;
+  height: 25px;
+  flex-direction: row;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(232, 226, 226, 0.2);
+  border-radius: 5px;
+  margin-top: 25px;
+  border: 1px solid #343333;
+  cursor: pointer;
+  padding-top: 18px;
+  margin-left: 40px;
+}
+.signInOption {
+  margin-left: 20px;
+  width: 120px;
+  color: #2d2d2d;
+}
+.loginToContinue {
+  font-size: large;
+  margin-left: 120px;
+  color: black;
+  font-weight: bold;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  border: none;
+}
+.otherOption {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+.CantLoginIn {
+  margin-left: 50px;
+  color: #2916f5;
+  font-size: medium;
+}
+.separator {
+  width: 360px;
+  height: 1px;
+  margin-left: 5px;
+  background-color: #bdc3c7;
+  margin-top: 25px;
+}
+.atlassian-view-two {
+  flex-direction: row;
+  align-self: center;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+.imageOne {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.atlassianOne {
+  color: #626567;
+  font-weight: bold;
+  font-size: x-large;
+}
+.text {
+  font-size: x-small;
+  color: black;
+  margin-left: 70px;
+}
+.more{
+  color: #2916f5;
+  font-size: x-small;
+  cursor: pointer;
 }
